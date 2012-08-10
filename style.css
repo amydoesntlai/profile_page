@@ -5,7 +5,7 @@ h1 {
 	padding: 30px 30px 30px 30px;
 	text-align: right;
 }
-#subtitle {
+p {
 	color: gray;
 	margin: 30px 30px 30px 250px;
 }
@@ -26,7 +26,7 @@ a:hover {
 	font-style: italic;
 	background-color: #dd3333;
 	text-align: right;
-	margin: 150px 30px 30px 30px;
+	margin: 30px 30px 30px 30px;
 	padding: 10px;
 }
 ul {
@@ -37,7 +37,10 @@ li {
 	display: inline;
 	margin: 5px 10px 5px 10px;
 }
-li a {
+#about a {
+	color: white;
+}
+#about a:hover {
 	text-decoration: none;
 	color: white;
 }
